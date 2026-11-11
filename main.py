@@ -1,6 +1,19 @@
 from drafter import *
 from dataclasses import dataclass
 
+
+set_website_title("Grid Game")
+set_site_information(
+    author="Robbie Voso",
+    description="See if your grid will hold up",
+    sources="Thanks to the Drafter docs and my study group.",
+    planning="plan.pdf",
+    links=["https://github.com/rvoso-rgb/grid_game"]
+)
+hide_debug_information()
+set_website_framed(False)
+
+
 # ---------------------------------------------------------------
 # Global constants (allowed). Tune these to change game balance.
 # ---------------------------------------------------------------
